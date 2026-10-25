@@ -1,0 +1,194 @@
+[
+  {
+    "name": ".eslintrc.json",
+    "path": "extensions/cleanshotx/.eslintrc.json",
+    "sha": "e6258e11d914332362f1d501cb01a7163c1cf29a",
+    "size": 46,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/.eslintrc.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.eslintrc.json",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/e6258e11d914332362f1d501cb01a7163c1cf29a",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.eslintrc.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/.eslintrc.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/e6258e11d914332362f1d501cb01a7163c1cf29a",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.eslintrc.json"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": "extensions/cleanshotx/.gitignore",
+    "sha": "84fc7188f5137d9f72743561e242133d2ae0d431",
+    "size": 252,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/.gitignore?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.gitignore",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/84fc7188f5137d9f72743561e242133d2ae0d431",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/.gitignore?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/84fc7188f5137d9f72743561e242133d2ae0d431",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.gitignore"
+    }
+  },
+  {
+    "name": ".prettierrc",
+    "path": "extensions/cleanshotx/.prettierrc",
+    "sha": "fc0f5030683fa6196d08943646300755fce2f207",
+    "size": 48,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/.prettierrc?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.prettierrc",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/fc0f5030683fa6196d08943646300755fce2f207",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.prettierrc",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/.prettierrc?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/fc0f5030683fa6196d08943646300755fce2f207",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/.prettierrc"
+    }
+  },
+  {
+    "name": "CHANGELOG.md",
+    "path": "extensions/cleanshotx/CHANGELOG.md",
+    "sha": "33bc68282d7512988355d8cdbda331b994f66753",
+    "size": 1859,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/CHANGELOG.md?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/CHANGELOG.md",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/33bc68282d7512988355d8cdbda331b994f66753",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/CHANGELOG.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/CHANGELOG.md?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/33bc68282d7512988355d8cdbda331b994f66753",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/CHANGELOG.md"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "extensions/cleanshotx/README.md",
+    "sha": "947d434ed4c58c4b47b318437973bedae9214865",
+    "size": 2356,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/README.md?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/README.md",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/947d434ed4c58c4b47b318437973bedae9214865",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/README.md?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/947d434ed4c58c4b47b318437973bedae9214865",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/README.md"
+    }
+  },
+  {
+    "name": "assets",
+    "path": "extensions/cleanshotx/assets",
+    "sha": "b2ec23aed2dc7210a371578656bcafb245d4a8af",
+    "size": 0,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/assets?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/assets",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/trees/b2ec23aed2dc7210a371578656bcafb245d4a8af",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/assets?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/trees/b2ec23aed2dc7210a371578656bcafb245d4a8af",
+      "html": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/assets"
+    }
+  },
+  {
+    "name": "media",
+    "path": "extensions/cleanshotx/media",
+    "sha": "50bd81d66174bc6251e4f911961d15c8d1738b5d",
+    "size": 0,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/media?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/media",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/trees/50bd81d66174bc6251e4f911961d15c8d1738b5d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/media?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/trees/50bd81d66174bc6251e4f911961d15c8d1738b5d",
+      "html": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/media"
+    }
+  },
+  {
+    "name": "metadata",
+    "path": "extensions/cleanshotx/metadata",
+    "sha": "34130bbb3dbb9a7bf989fc1f2eed63c87b33bf6b",
+    "size": 0,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/metadata?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/metadata",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/trees/34130bbb3dbb9a7bf989fc1f2eed63c87b33bf6b",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/metadata?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/trees/34130bbb3dbb9a7bf989fc1f2eed63c87b33bf6b",
+      "html": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/metadata"
+    }
+  },
+  {
+    "name": "package-lock.json",
+    "path": "extensions/cleanshotx/package-lock.json",
+    "sha": "403f7edcada1689356495e8f954a3f502f2b3232",
+    "size": 122869,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/package-lock.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/package-lock.json",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/403f7edcada1689356495e8f954a3f502f2b3232",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/package-lock.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/package-lock.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/403f7edcada1689356495e8f954a3f502f2b3232",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/package-lock.json"
+    }
+  },
+  {
+    "name": "package.json",
+    "path": "extensions/cleanshotx/package.json",
+    "sha": "3befe73822bd7be42f009672524a7062d8e5262b",
+    "size": 11380,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/package.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/package.json",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/3befe73822bd7be42f009672524a7062d8e5262b",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/package.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/package.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/3befe73822bd7be42f009672524a7062d8e5262b",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/package.json"
+    }
+  },
+  {
+    "name": "src",
+    "path": "extensions/cleanshotx/src",
+    "sha": "069577f1e7d8ff5391510541b9ec441512c178eb",
+    "size": 0,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/src?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/src",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/trees/069577f1e7d8ff5391510541b9ec441512c178eb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/src?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/trees/069577f1e7d8ff5391510541b9ec441512c178eb",
+      "html": "https://github.com/raycast/extensions/tree/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/src"
+    }
+  },
+  {
+    "name": "tsconfig.json",
+    "path": "extensions/cleanshotx/tsconfig.json",
+    "sha": "abb15806beca5a20e5408097fbaf39c6c7517129",
+    "size": 409,
+    "url": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/tsconfig.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "html_url": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/tsconfig.json",
+    "git_url": "https://api.github.com/repos/raycast/extensions/git/blobs/abb15806beca5a20e5408097fbaf39c6c7517129",
+    "download_url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/tsconfig.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/raycast/extensions/contents/extensions/cleanshotx/tsconfig.json?ref=97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "git": "https://api.github.com/repos/raycast/extensions/git/blobs/abb15806beca5a20e5408097fbaf39c6c7517129",
+      "html": "https://github.com/raycast/extensions/blob/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/cleanshotx/tsconfig.json"
+    }
+  }
+]

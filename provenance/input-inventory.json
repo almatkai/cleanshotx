@@ -1,0 +1,196 @@
+{
+  "appCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+  "files": [
+    {
+      "path": "src-tauri/src/native_core/extensions/v2_cleanshotx.rs",
+      "size": 60002,
+      "sha256": "d1b6a6c2660ca155351e454f5d92f4bddb113d0fb692b8e62566acb73823e547",
+      "originType": "app-git",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "LICENSE",
+      "size": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "originType": "app-git",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "licenses/raycast-extensions-MIT.txt",
+      "size": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "originType": "app-git",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "manifest.v2.json",
+      "size": 13416,
+      "sha256": "3dfdf496a2e038097e3c0b9882b56ec31b9dac8b84a98ce0c4aa4440ef2a7433",
+      "originType": "catalog-selection",
+      "originCommit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89"
+    },
+    {
+      "path": "provenance/installed-package.json",
+      "size": 11380,
+      "sha256": "2292dbdfd94cd14dac07bcffcffbb02fa98bd657620c919dbaf6870beb5fb0d1",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/add-quick-access-overlay.png",
+      "size": 35924,
+      "sha256": "fdad992a935ed5355d3bb2e1a52c03a3f303bdeae1e895cf8bf095dbccf1f10f",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/all-in-one.png",
+      "size": 28509,
+      "sha256": "5d3619923331a6a0438044203f77c4d2e6fe41854451c92717a0bc33c74d42c6",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/annotate.png",
+      "size": 25562,
+      "sha256": "c6d8ce1771785e97b7ebf770a47d4d80df53cb92a0d831d6dd04906df5d3a6af",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/capture-area-ai-chat.png",
+      "size": 80098,
+      "sha256": "76d3cc185ec401de16372e374b8e98a8f685cbb98f72516606e9f4e9bf361542",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/capture-area.png",
+      "size": 26322,
+      "sha256": "861eb7c96ec70eb000c87d2ac087ab826b5dc01f36c24b086028515ec79ba507",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/capture-fullscreen.png",
+      "size": 23223,
+      "sha256": "7ecfb14e443dcf28e1af6ee2c5af4edae92c0fbca380b1c1bfb7bed61b50ea41",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/capture-previous-area.png",
+      "size": 27530,
+      "sha256": "67dbcca13ace7dd93f19318e28a1bb26d9597401c1af04806a553781884aead1",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/capture-text.png",
+      "size": 27070,
+      "sha256": "db3567c97fab7c4e9b554f9790b28b1fc387ca29a6bd9e6f933f731706be79d8",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/capture-window.png",
+      "size": 24185,
+      "sha256": "c854506090a85c3a1aa40d1d70d0651052c478395d9587809b6295c1be5b0539",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/clipboard.png",
+      "size": 27879,
+      "sha256": "ebe4735772bcd4d3a25fd5c8cf39af3e543054a8cc59db6bbd1dfd70dbcb3ec2",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/command-icon.png",
+      "size": 153103,
+      "sha256": "d5cb290b6839573bbf12074dda6e8aad41ec666c816e564e8bd1d6c4bc1de636",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/hide-desktop-icons.png",
+      "size": 30632,
+      "sha256": "55a9ef565391c5d0b2476bbfcf9cbfd32986a562e93e62710d33c557ba6d6922",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/open-history.png",
+      "size": 29233,
+      "sha256": "7fc4d9b7dca42e37701c663af27159daab86c332ad467307a9a843203b3bc7d0",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/open-settings.png",
+      "size": 26719,
+      "sha256": "8879a006d28746a090aca58cfd348be8057f708b9f51e75d860e903fba783801",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/pin.png",
+      "size": 24186,
+      "sha256": "3d0c0341fdc2f2656f63dc8e802b5b997a5c7ee917e7cae77b8dd6db2d41d06f",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/record-screen.png",
+      "size": 25643,
+      "sha256": "1111d170f63c503e480123ad9221f9ef1a2be01a58187306c3c9a4e257b1843e",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/restore.png",
+      "size": 24622,
+      "sha256": "f79e0f53dbc2c4a46846c7033af47fd203fb216bbec55696875b6384f19dcc05",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/scrolling-capture.png",
+      "size": 23197,
+      "sha256": "e7d919987fb4f6cca840b31c9cfb1134c1dc5e609b9bd3d925e9613295d04e7b",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/self-timer.png",
+      "size": 28556,
+      "sha256": "d23155447411539498f3b811f18d863451a8598dffa01a8db76c479bf74b7c67",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/show-desktop-icons.png",
+      "size": 28223,
+      "sha256": "8d7aaaa0f8c0c31f28ac8a6abc6c1ae6708fd45ceefaef7e57a168a83817a74f",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/toggle-desktop-icons.png",
+      "size": 29376,
+      "sha256": "d54b6dd9d327118cfd2f6058675eae6b916244aa2a3288414598ceca73f706e1",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "assets/view-uploads.png",
+      "size": 26708,
+      "sha256": "4e8aa3e6e1744fb9042cc98d8a97fa913968eb36597cbdf8320a97ea88a47509",
+      "originType": "local-read-only"
+    },
+    {
+      "path": "provenance/upstream-directory.json",
+      "size": 13306,
+      "sha256": "7d7fb113d397f7512c1b092336bd283671b2fa58d85b7732b96cbf74e0cecf81",
+      "originType": "github-api",
+      "originCommit": "97ee2594a03a94fa439c26864d85ad9a96dc9fc9"
+    },
+    {
+      "path": "provenance/current-upstream/README.md",
+      "size": 2356,
+      "sha256": "f27ec2c9f04e640ee0239e52d94875435142c90a2bdba44330fb2a55b1c49371",
+      "originType": "https"
+    },
+    {
+      "path": "provenance/current-upstream/package.json",
+      "size": 11380,
+      "sha256": "2292dbdfd94cd14dac07bcffcffbb02fa98bd657620c919dbaf6870beb5fb0d1",
+      "originType": "https"
+    },
+    {
+      "path": "provenance/current-upstream/repository-LICENSE",
+      "size": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "originType": "https"
+    }
+  ]
+}

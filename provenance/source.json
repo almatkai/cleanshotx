@@ -1,0 +1,65 @@
+{
+  "slug": "cleanshotx",
+  "status": "source-inputs-only",
+  "standalone": false,
+  "source_pack_complete_for_research": true,
+  "repository": "almatkai/cleanshotx",
+  "repository_exists_at_inventory": false,
+  "repository_visibility": null,
+  "repository_proposed_name": "cleanshotx",
+  "publish_allowed": "not-approved; research inputs need integration/license review",
+  "app_base": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+  "app_branch": "fix/beta15-external-rust-extensions",
+  "source_sha256": "d1b6a6c2660ca155351e454f5d92f4bddb113d0fb692b8e62566acb73823e547",
+  "source_module": "src-tauri/src/native_core/extensions/v2_cleanshotx.rs",
+  "manifest": "manifest.v2.json",
+  "manifest_icon_original_copied": true,
+  "manifest_asset_references": [
+    "command-icon.png"
+  ],
+  "actual_missing_assets": [],
+  "commands": 23,
+  "runtime_validation": "not-run",
+  "remaining_port_couplings": "CleanShot X must be installed on macOS for URL integration; Windows host screenshot/clipboard/open-with/reveal/visibility routes and OS UI remain host-owned.",
+  "host_request_routes": [
+    "core:platform:clipboard-write",
+    "core:platform:open-with-app",
+    "core:platform:reveal-file",
+    "core:platform:screenshot",
+    "core:platform:visibility"
+  ],
+  "sdk_functions": [
+    "encode_component",
+    "no_view",
+    "open",
+    "read_store",
+    "unchanged",
+    "update_store",
+    "view"
+  ],
+  "license_notices": [
+    "App LICENSE retained exactly (Apache-2.0, existing Almat notice); retain Raycast MIT and original author/contributor metadata; not one license for all third-party assets. Original icons preserved; no trademark grant or independent authorship invented."
+  ],
+  "installed_public_metadata": {
+    "author": "Aayush9029",
+    "contributors": [
+      "lukaszmtw",
+      "erics118",
+      "mlnchk",
+      "pernielsentikaer",
+      "0xdhrv"
+    ],
+    "license": "MIT",
+    "version": null
+  },
+  "installed_upstream_exact_commit": "unknown",
+  "upstream_snapshot": {
+    "slug": "cleanshotx",
+    "repository": "raycast/extensions",
+    "snapshot_commit": "97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+    "installed_exact_upstream_commit": "unknown",
+    "extension_path": "extensions/cleanshotx",
+    "errors": []
+  },
+  "existing_repository_upstream": null
+}
