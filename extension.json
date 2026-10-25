@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.cleanshotx",
+  "slug": "cleanshotx",
+  "name": "CleanShot X",
+  "version": "1.0.0",
+  "description": "Capture and record your screen!",
+  "author": "Aayush9029",
+  "icon": "resources/assets/command-icon.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.cleanshotx"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [],
+  "commands": [
+    {
+      "name": "open-history",
+      "title": "Open History",
+      "description": "Show Screenshots History",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "open-settings",
+      "title": "Open Settings",
+      "description": "Open Settings",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "tab",
+          "type": "dropdown",
+          "placeholder": "Tab",
+          "required": false,
+          "data": [
+            {
+              "title": "General",
+              "value": "general"
+            },
+            {
+              "title": "Wallpaper",
+              "value": "wallpaper"
+            },
+            {
+              "title": "Shortcuts",
+              "value": "shortcuts"
+            },
+            {
+              "title": "Quick Access",
+              "value": "quickaccess"
+            },
+            {
+              "title": "Recording",
+              "value": "recording"
+            },
+            {
+              "title": "Screenshots",
+              "value": "screenshots"
+            },
+            {
+              "title": "Annotate",
+              "value": "annotate"
+            },
+            {
+              "title": "Cloud",
+              "value": "cloud"
+            },
+            {
+              "title": "Advanced",
+              "value": "advanced"
+            },
+            {
+              "title": "About",
+              "value": "about"
+            }
+          ]
+        }
+      ],
+      "disabledByDefault": true,
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "view-uploads",
+      "title": "View Uploads",
+      "description": "View Uploads in Cleanshot Cloud",
+      "mode": "no-view",
+      "disabledByDefault": true,
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "all-in-one",
+      "title": "All in One",
+      "description": "Capture Record Crop All in One",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "capture-fullscreen",
+      "title": "Capture Fullscreen",
+      "description": "Fullscreen Screenshot",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "Action",
+          "required": false,
+          "data": [
+            {
+              "title": "Copy",
+              "value": "copy"
+            },
+            {
+              "title": "Save",
+              "value": "save"
+            },
+            {
+              "title": "Annotate",
+              "value": "annotate"
+            },
+            {
+              "title": "Upload",
+              "value": "upload"
+            },
+            {
+              "title": "Pin",
+              "value": "pin"
+            }
+          ]
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "capture-area",
+      "title": "Capture Area",
+      "description": "Selection Tool Capture",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "Action",
+          "required": false,
+          "data": [
+            {
+              "title": "Copy",
+              "value": "copy"
+            },
+            {
+              "title": "Save",
+              "value": "save"
+            },
+            {
+              "title": "Annotate",
+              "value": "annotate"
+            },
+            {
+              "title": "Upload",
+              "value": "upload"
+            },
+            {
+              "title": "Pin",
+              "value": "pin"
+            }
+          ]
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "capture-previous-area",
+      "title": "Capture Previous Area",
+      "description": "Previously Selected Area",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "Action",
+          "required": false,
+          "data": [
+            {
+              "title": "Copy",
+              "value": "copy"
+            },
+            {
+              "title": "Save",
+              "value": "save"
+            },
+            {
+              "title": "Annotate",
+              "value": "annotate"
+            },
+            {
+              "title": "Upload",
+              "value": "upload"
+            },
+            {
+              "title": "Pin",
+              "value": "pin"
+            }
+          ]
+        }
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "capture-window",
+      "title": "Capture Window",
+      "description": "Window Capture",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "Action",
+          "required": false,
+          "data": [
+            {
+              "title": "Copy",
+              "value": "copy"
+            },
+            {
+              "title": "Save",
+              "value": "save"
+            },
+            {
+              "title": "Annotate",
+              "value": "annotate"
+            },
+            {
+              "title": "Upload",
+              "value": "upload"
+            },
+            {
+              "title": "Pin",
+              "value": "pin"
+            }
+          ]
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "self-timer",
+      "title": "Self Timer",
+      "description": "Timer Based Screen Capture",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "Action",
+          "required": false,
+          "data": [
+            {
+              "title": "Copy",
+              "value": "copy"
+            },
+            {
+              "title": "Save",
+              "value": "save"
+            },
+            {
+              "title": "Annotate",
+              "value": "annotate"
+            },
+            {
+              "title": "Upload",
+              "value": "upload"
+            },
+            {
+              "title": "Pin",
+              "value": "pin"
+            }
+          ]
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "scrolling-capture",
+      "title": "Scrolling Capture",
+      "description": "Scrolling Capture Mode",
+      "mode": "no-view",
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "record-screen",
+      "title": "Record Screen",
+      "description": "Record Entire Screen",
+      "mode": "no-view",
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "capture-text",
+      "title": "Capture Text (OCR)",
+      "description": "Capture text using OCR",
+      "mode": "no-view",
+      "keywords": [
+        "text recognition"
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "annotate",
+      "title": "Annotate",
+      "description": "Annotate Mode",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "filepath",
+          "placeholder": "File Path",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "open-from-clipboard",
+      "title": "Open from Clipboard",
+      "description": "Open Image From Clipboard",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "toggle-desktop-icons",
+      "title": "Toggle Desktop Icons",
+      "description": "Toggle Desktop Icons Visibility",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "hide-desktop-icons",
+      "title": "Hide Desktop Icons",
+      "description": "Hide Desktop Icons Visibility",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "show-desktop-icons",
+      "title": "Show Desktop Icons",
+      "description": "Show Desktop Icons Visibility",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "restore-recently-closed",
+      "title": "Restore Recently Closed",
+      "description": "Restore Recently Closed Overlay",
+      "mode": "no-view",
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "add-quick-access-overlay",
+      "title": "Add Quick Access Overlay",
+      "description": "Add Quick Access Overlay",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "filepath",
+          "placeholder": "File Path",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "pin",
+      "title": "Pin Screenshot",
+      "description": "Pin Screenshot to the Screen.",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "filepath",
+          "placeholder": "File Path",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "capture-area-raycast-aichat",
+      "title": "Send Captured Area to AI Chat",
+      "description": "Capture an area of the screen and send it to Raycast's AI Chat",
+      "mode": "no-view",
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "unavailable",
+      "gap": "Raycast AI Chat capture integration is not available in this standalone extension.",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "record-screen-preset",
+      "title": "Record Screen at Preset",
+      "description": "Start a screen recording at a chosen preset resolution",
+      "mode": "view",
+      "platforms": [
+        "macOS"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    },
+    {
+      "name": "manage-recording-presets",
+      "title": "Manage Recording Presets",
+      "description": "Add, edit, and delete custom recording resolution presets",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "refreshMs": null
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run"
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run"
+    }
+  ],
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/cleanshotx",
+  "artifacts": {},
+  "capabilities": [
+    "shell.open",
+    "shell.openWithApp",
+    "shell.reveal",
+    "window.visibility",
+    "screen.capture",
+    "clipboard.read",
+    "clipboard.writeImage",
+    "apps.list"
+  ],
+  "migrationPaths": {
+    "nativeStore": "native-extensions-v2/cleanshotx/storage.json",
+    "captures": "native-v2-cleanshotx/captures"
+  },
+  "files": {}
+}
